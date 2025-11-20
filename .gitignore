@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+
+# Python packaging
+pip-wheel-metadata/
+
+# Editor files
+.vscode/
+*.swp
+
+# Data and model artifacts
+# Model files will be tracked via Git LFS; do not ignore them here.
+# If you prefer to keep model files out of the repo, re-add patterns like `model/` or `*.pkl`.
+Modelos/
+*.joblib
+
+# Logs
+*.log
