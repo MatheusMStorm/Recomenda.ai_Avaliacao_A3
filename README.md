@@ -39,7 +39,7 @@ streamlit run app.py
 O sistema irá notificar que a aplicação está rodando na porta 8501. Clique em "Open in Browser".
 ```
 
-💻 Opção 2: Rodar Localmente
+### 💻 Opção 2: Rodar Localmente
 
 Caso prefira rodar na sua máquina, siga os passos abaixo no terminal (Git Bash, PowerShell ou Terminal):
 
@@ -66,39 +66,45 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Treinar os Modelos de IA (⚠️ Importante)
+## 4. Treinar os Modelos de IA (⚠️ Importante)
 Antes de abrir o site, é necessário processar os dados e criar a árvore de decisão.
 ```bash
 python main.py
 Aguarde a mensagem: --- Treinamento Concluído com Sucesso ---
 ```
 
-5. Executar a Interface
+## 5. Executar a Interface
 ```bash
 streamlit run app.py
 ```
 
-📝 Nota para o Avaliador (Resolução de Problemas)
+## 📝 Nota para o Avaliador (Resolução de Problemas)
+--------------------------------------------------
 
 Reunimos aqui os principais pontos de atenção para a correção:
 
-Erro "Modelos de IA não encontrados": Se ao abrir o streamlit run app.py aparecer uma mensagem vermelha informando falta de modelos, significa que o script main.py não foi executado. Pare a execução (Ctrl+C), rode python main.py para gerar os arquivos na pasta model/ e tente novamente.
+## Erros Comuns e Soluções
 
-Dependências: O arquivo requirements.txt contém todas as bibliotecas necessárias (pandas, numpy, scikit-learn, streamlit, requests).
+### 🔍 **Erro "Modelos de IA não encontrados"**
+----------------------------------------
+Se ao abrir o streamlit run app.py aparecer uma mensagem vermelha informando falta de modelos:
+1. Pare a execução atual (Ctrl+C)
+2. Execute `python main.py` para gerar os arquivos na pasta model/
+3. Tente novamente executar a aplicação
 
-Estrutura de Pastas: O código fonte da IA está modularizado na pasta code/ para facilitar a manutenção.
+## 🛠️ Tecnologias Utilizadas
+------------------------
+- Python 3.12
+- Streamlit: Front-end interativo
+- Scikit-learn: Árvore de Decisão e Vetorização de Texto
+- Pandas & NumPy: Processamento de dados
 
-🛠️ Tecnologias Utilizadas
-Python 3.12
-Streamlit: Front-end interativo.
-Scikit-learn: Árvore de Decisão e Vetorização de Texto.
-Pandas & NumPy: Processamento de dados.
-
-✒️ Autores
-João Fernandes
-Maria Eduarda
-Marlon Deivide
-Matheus Moura
-Michel Silva
-Milena Silva
-Pablo Anderson
+## ✒️ **Equipe de Desenvolvimento**
+------------------------------
+- João Fernandes
+- Maria Eduarda
+- Marlon Deivide
+- Matheus Moura
+- Michel Silva
+- Milena Silva
+- Pablo Anderson
