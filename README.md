@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python main.py
 
 # 3. Rodar a aplicação
-streamlit run app.py
+python -m streamlit run app.py
 O sistema irá notificar que a aplicação está rodando na porta 8501. Clique em "Open in Browser".
 ```
 
@@ -75,7 +75,7 @@ Aguarde a mensagem: --- Treinamento Concluído com Sucesso ---
 
 ## 5. Executar a Interface
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ## 📝 Nota para o Avaliador (Resolução de Problemas)
