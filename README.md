@@ -79,6 +79,12 @@ Aguarde a mensagem: --- Treinamento Concluído com Sucesso ---
 ```bash
 python -m streamlit run app.py
 ```
+## 🖼️ Localização dos Banners e Documentação dos Grupos
+--------------------------------------------------
+Para facilitar a avaliação, todos os materiais visuais e documentos produzidos pelo Grupo – Módulo PNL estão organizados na pasta:
+
+👉 Clique aqui para acessar os banners e documentos — [texto](./docs/grupo_pnl/)
+
 
 ## 📝 Nota para o Avaliador (Resolução de Problemas)
 --------------------------------------------------
