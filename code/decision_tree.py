@@ -158,6 +158,7 @@ def calcular_eficiencia(clf, X_test, y_test, verbose: bool = True):
         print(f"Eficiência do modelo (Acurácia): {acuracia_percent:.2f}%")
         try:
             print("\nClassification report:\n", classification_report(y_test, y_pred))
+            print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
         except Exception:
             pass
 
