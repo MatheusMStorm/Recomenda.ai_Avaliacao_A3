@@ -4,7 +4,9 @@
 
 O **Recomenda.ai** é um sistema inteligente de recomendação de filmes que utiliza uma abordagem híbrida, combinando **Processamento de Linguagem Natural (PNL)** para análise de similaridade de conteúdo e **Árvores de Decisão** para filtragem e previsão de preferência do utilizador.
 
-![Recomenda.ai](img/Recomenda.ai.png)
+<div style="text-align: center;">
+  <img src="img/Recomenda.ai.png" alt="Logo Recomenda.ai" width=200 height=200>
+</div>
 
 ## 📋 Sobre o Projeto
 
