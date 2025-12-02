@@ -11,7 +11,7 @@ O **Recomenda.ai** é um sistema inteligente de recomendação de filmes que uti
 ## 📋 Sobre o Projeto
 
 Este projeto foi desenvolvido como parte da Avaliação A3. O sistema permite descobrir filmes de duas maneiras:
-1.  **Por Filme Similar:** Busca obras com sinopse e características similares via PNL (TF-IDF e Cosine Similarity).
+1.  **Por Filme Similar:** Busca obras com gênero e características similares via PNL (TF-IDF e Cosine Similarity).
 2.  **Por Filtros Inteligentes:** Interpreta interesses em linguagem natural (ex: "Tom Hanks, Ação, curta duração") e utiliza uma Árvore de Decisão para classificar as recomendações.
 
 ## 🚀 Guia de Instalação e Execução (Passo a Passo)
